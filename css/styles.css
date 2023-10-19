@@ -28,6 +28,14 @@ img {
   padding-right: 15px;
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .page-header .container {
   display: flex;
   justify-content: space-between;
@@ -40,10 +48,20 @@ img {
 
 .navigation-list {
   display: flex;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .contacts-list {
   display: flex;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.navigation-logo {
+  margin-right: 76px;
 }
 
 /*section navigation*/
@@ -106,6 +124,8 @@ img {
 
 .hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -115,6 +135,10 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 64px;
 }
 
 .hero-click {
@@ -125,6 +149,14 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
 }
 
 .hero-click:hover,
