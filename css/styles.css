@@ -296,10 +296,6 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.portfolio-list-item {
-  width: calc((100%-48px) / 3);
-}
-
 /*bottom*/
 
 .bottom {
